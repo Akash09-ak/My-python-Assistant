@@ -1,5 +1,5 @@
-import speech_recognition as sr     # importing spech recognizition package as sr
-from time import ctime      # importing time pakage
+import speech_recognition as sr     # importing sepech recognizition package as sr
+from time import ctime      
 import webbrowser
 import time
 import os
