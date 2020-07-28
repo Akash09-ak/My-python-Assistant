@@ -1,0 +1,8 @@
+speech_recognition 
+from time import ctime    
+webbrowser
+time
+os
+playsound
+random
+from gtts import gTTS
