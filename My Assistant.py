@@ -35,6 +35,8 @@ def assistant_speaks(audio_string):      # function for text to speech conversio
     os.remove(audio_file)
 
 def respond(voice_data):      # function to respond to user voice(input)
+    if('hy' or'hello' or 'hi' or'namaste' or 'konnichiwa') in voice_data:
+        assistant_speaks("Hello")
     if 'what is your name' in voice_data:          # if the voice ask for your name
         #print("My name is Akash Assistant")               # assisant will give this message
         assistant_speaks("My name is Akash Assistant")
